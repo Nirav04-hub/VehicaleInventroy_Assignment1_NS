@@ -1483,17 +1483,17 @@
           }
         }
       },
-      "VehicleInventory.Application/1.0.0": {
+      "VehicleInventory.ApplicationNS/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "VehicleInventory.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/VehicleInventory.Application.dll": {}
+          "bin/placeholder/VehicleInventory.ApplicationNS.dll": {}
         },
         "runtime": {
-          "bin/placeholder/VehicleInventory.Application.dll": {}
+          "bin/placeholder/VehicleInventory.ApplicationNS.dll": {}
         }
       },
       "VehicleInventory.Domain/1.0.0": {
@@ -3982,10 +3982,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "VehicleInventory.Application/1.0.0": {
+    "VehicleInventory.ApplicationNS/1.0.0": {
       "type": "project",
-      "path": "../VehicleInventory.Application/VehicleInventory.Application.csproj",
-      "msbuildProject": "../VehicleInventory.Application/VehicleInventory.Application.csproj"
+      "path": "../VehicleInventory.Application/VehicleInventory.ApplicationNS.csproj",
+      "msbuildProject": "../VehicleInventory.Application/VehicleInventory.ApplicationNS.csproj"
     },
     "VehicleInventory.Domain/1.0.0": {
       "type": "project",
@@ -3998,7 +3998,7 @@
       "Microsoft.EntityFrameworkCore >= 8.0.22",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.22",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.22",
-      "VehicleInventory.Application >= 1.0.0",
+      "VehicleInventory.ApplicationNS >= 1.0.0",
       "VehicleInventory.Domain >= 1.0.0"
     ]
   },
@@ -4009,9 +4009,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\VehicleInventory.Infrastructure.csproj",
-      "projectName": "VehicleInventory.Infrastructure",
-      "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\VehicleInventory.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\VehicleInventory.InfrastructureNS.csproj",
+      "projectName": "VehicleInventory.InfrastructureNS",
+      "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\VehicleInventory.InfrastructureNS.csproj",
       "packagesPath": "C:\\Users\\nirav\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
@@ -4035,8 +4035,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\VehicleInventory.Application.csproj": {
-              "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\VehicleInventory.Application.csproj"
+            "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\VehicleInventory.ApplicationNS.csproj": {
+              "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\VehicleInventory.ApplicationNS.csproj"
             },
             "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\VehicleInventory.Domain.csproj": {
               "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\VehicleInventory.Domain.csproj"

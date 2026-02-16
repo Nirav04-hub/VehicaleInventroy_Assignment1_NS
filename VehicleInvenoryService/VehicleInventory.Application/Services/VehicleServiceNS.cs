@@ -11,29 +11,29 @@ using VehicleInventory.Domain.Exception;
 
 namespace VehicleInventory.Application.Services
 {
-    public class VehicleService
+    public class VehicleServiceNS
     {
-        private readonly IVehicleRepo _vehicleRepo;
+        private readonly IVehicleRepoNS _vehicleRepo;
 
-        public VehicleService(IVehicleRepo vehicleRepo)
+        public VehicleServiceNS(IVehicleRepoNS vehicleRepo)
         {
             _vehicleRepo = vehicleRepo;
         }
 
-        public async Task<VehicleDto> CreateVehicleAsync(CreateVehicleRequest request, CancellationToken ct = default)
+        public async Task<VehicleDtoNS> CreateVehicleAsync(CreateVehicleRequestNS request, CancellationToken ct = default)
         {
             var vehicle = new Vehicle(Guid.NewGuid(), request.VehicleCode, request.LocationId, request.VehicleType);
             await _vehicleRepo.AddAsync(vehicle, ct);
             return ToDto(vehicle);
         }
 
-        public async Task<VehicleDto?> GetVehicleByIdAsync(Guid id, CancellationToken ct = default)
+        public async Task<VehicleDtoNS?> GetVehicleByIdAsync(Guid id, CancellationToken ct = default)
         {
             var v = await _vehicleRepo.GetByIdAsync(id, ct);
             return  ToDto(v);
         }
 
-        public async Task<List<VehicleDto>> GetAllVehiclesAsync(CancellationToken ct = default)
+        public async Task<List<VehicleDtoNS>> GetAllVehiclesAsync(CancellationToken ct = default)
         {
             var list = await _vehicleRepo.GetAllAsync(ct);
             return list.Select(ToDto).ToList();
@@ -66,8 +66,7 @@ namespace VehicleInventory.Application.Services
             await _vehicleRepo.DeleteAsync(v, ct);
             return true;
         }
-        `
-        private static VehicleDto ToDto(Vehicle v)
+        private static VehicleDtoNS ToDto(Vehicle v)
             => new(v.Id, v.VehicleCode, v.LocationId, v.VehicleType, v.Status);
     }
 }

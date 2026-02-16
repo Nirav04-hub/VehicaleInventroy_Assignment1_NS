@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace VehicleInventory.Application.DTOs
 {
-    public class CreateVehicleRequest
+    public class CreateVehicleRequestNS
     {
         [Required, MaxLength(50)]
         public string VehicleCode { get; set; }
