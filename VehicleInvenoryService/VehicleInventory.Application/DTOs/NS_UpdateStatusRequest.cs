@@ -8,7 +8,7 @@ using VehicleInventory.Domain.Enums;
 
 namespace VehicleInventory.Application.DTOs
 {
-    public class UpdateStatusRequestNS
+    public class NS_UpdateStatusRequest
     {
         [Required]
         public VehicleStatus status { get; set; }

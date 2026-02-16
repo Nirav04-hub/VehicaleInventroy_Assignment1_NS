@@ -7,7 +7,7 @@ using VehicleInventory.Domain.Entities;
 
 namespace VehicleInventory.Application.Interfaces
 {
-    public interface IVehicleRepoNS
+    public interface NS_IVehicleRepo
     {
         Task<Vehicle?> GetByIdAsync(Guid id, CancellationToken ct = default);
         Task<List<Vehicle>> GetAllAsync(CancellationToken ct = default);

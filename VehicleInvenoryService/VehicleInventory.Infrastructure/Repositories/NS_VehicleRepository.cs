@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VehicleInventory.InfrastructureNS.Repositories
 {
-    public class VehicleRepository
+    public class NS_VehicleRepository
     {
     }
 }

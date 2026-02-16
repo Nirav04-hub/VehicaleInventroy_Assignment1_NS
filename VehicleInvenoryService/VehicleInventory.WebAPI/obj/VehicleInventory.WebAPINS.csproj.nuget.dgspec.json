@@ -4,12 +4,12 @@
     "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.WebAPI\\VehicleInventory.WebAPINS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\VehicleInventory.ApplicationNS.csproj": {
+    "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\NS_VehicleInventory.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\VehicleInventory.ApplicationNS.csproj",
-        "projectName": "VehicleInventory.ApplicationNS",
-        "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\VehicleInventory.ApplicationNS.csproj",
+        "projectUniqueName": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\NS_VehicleInventory.Application.csproj",
+        "projectName": "NS_VehicleInventory.Application",
+        "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\NS_VehicleInventory.Application.csproj",
         "packagesPath": "C:\\Users\\nirav\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\obj\\",
         "projectStyle": "PackageReference",
@@ -140,12 +140,12 @@
         }
       }
     },
-    "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\VehicleInventory.InfrastructureNS.csproj": {
+    "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\NS_VehicleInventory.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\VehicleInventory.InfrastructureNS.csproj",
-        "projectName": "VehicleInventory.InfrastructureNS",
-        "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\VehicleInventory.InfrastructureNS.csproj",
+        "projectUniqueName": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\NS_VehicleInventory.Infrastructure.csproj",
+        "projectName": "NS_VehicleInventory.Infrastructure",
+        "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\NS_VehicleInventory.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\nirav\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
@@ -169,8 +169,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\VehicleInventory.ApplicationNS.csproj": {
-                "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\VehicleInventory.ApplicationNS.csproj"
+              "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\NS_VehicleInventory.Application.csproj": {
+                "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\NS_VehicleInventory.Application.csproj"
               },
               "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\VehicleInventory.Domain.csproj": {
                 "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\VehicleInventory.Domain.csproj"
@@ -258,11 +258,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\VehicleInventory.ApplicationNS.csproj": {
-                "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\VehicleInventory.ApplicationNS.csproj"
+              "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\NS_VehicleInventory.Application.csproj": {
+                "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\NS_VehicleInventory.Application.csproj"
               },
-              "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\VehicleInventory.InfrastructureNS.csproj": {
-                "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\VehicleInventory.InfrastructureNS.csproj"
+              "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\NS_VehicleInventory.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\NS_VehicleInventory.Infrastructure.csproj"
               }
             }
           }

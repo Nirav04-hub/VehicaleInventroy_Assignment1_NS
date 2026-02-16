@@ -33,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\VehicleInventory.ApplicationNS.csproj",
-      "projectName": "VehicleInventory.ApplicationNS",
-      "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\VehicleInventory.ApplicationNS.csproj",
+      "projectUniqueName": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\NS_VehicleInventory.Application.csproj",
+      "projectName": "NS_VehicleInventory.Application",
+      "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\NS_VehicleInventory.Application.csproj",
       "packagesPath": "C:\\Users\\nirav\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\obj\\",
       "projectStyle": "PackageReference",

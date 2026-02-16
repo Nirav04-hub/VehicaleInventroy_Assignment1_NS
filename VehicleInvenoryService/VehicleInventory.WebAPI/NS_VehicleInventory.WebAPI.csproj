@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\VehicleInventory.Application\VehicleInventory.ApplicationNS.csproj" />
-    <ProjectReference Include="..\VehicleInventory.Infrastructure\VehicleInventory.InfrastructureNS.csproj" />
+    <ProjectReference Include="..\VehicleInventory.Application\NS_VehicleInventory.Application.csproj" />
+    <ProjectReference Include="..\VehicleInventory.Infrastructure\NS_VehicleInventory.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

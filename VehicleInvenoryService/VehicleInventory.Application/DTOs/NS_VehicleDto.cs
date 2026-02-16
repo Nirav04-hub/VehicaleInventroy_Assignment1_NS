@@ -3,7 +3,7 @@ using VehicleInventory.Domain.Enums;
 
 namespace VehicleInventory.Application.DTOs
 {
-    public record VehicleDtoNS(
+    public record NS_VehicleDto(
         Guid Id,
         string vehicleCode,
         Guid locationId,

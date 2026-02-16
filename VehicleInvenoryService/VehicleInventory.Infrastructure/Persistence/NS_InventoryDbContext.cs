@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VehicleInventory.InfrastructureNS.Persistence
 {
-    public class InventoryDbContext
+    public class NS_InventoryDbContext
     {
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VehicleInventory.WebAPINS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39af817f1e38d212adf736daef4dca3c816a1952")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a51e08e6bee59e6a9ff2cbda3279f5e6595a9b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("VehicleInventory.WebAPINS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VehicleInventory.WebAPINS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
