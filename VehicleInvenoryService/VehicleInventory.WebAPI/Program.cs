@@ -13,7 +13,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<NS_InventoryDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("NS_VehicleInventoryDb")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("InventoryDb")));
 
 builder.Services.AddScoped<NS_IVehicleRepo , NS_VehicleRepository>();
 builder.Services.AddScoped<NS_VehicleService>();
