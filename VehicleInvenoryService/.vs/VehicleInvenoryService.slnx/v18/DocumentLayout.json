@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{910DF19E-3995-6AFD-F65C-89A8C30E5D8B}|VehicleInventoryService{910DF19E-3995-6AFD-F65C-89A8C30E5D8B}|C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{910DF19E-3995-6AFD-F65C-89A8C30E5D8B}|VehicleInventoryService{910DF19E-3995-6AFD-F65C-89A8C30E5D8B}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E803DA6-4583-7278-4295-6AE4266BF617}|VehicleInventory.WebAPI\\NS_VehicleInventory.WebAPI.csproj|c:\\users\\nirav\\onedrive\\desktop\\vehicaleinventroy_assignment1_ns\\vehicleinvenoryservice\\vehicleinventory.webapi\\controllers\\ns_vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E803DA6-4583-7278-4295-6AE4266BF617}|VehicleInventory.WebAPI\\NS_VehicleInventory.WebAPI.csproj|solutionrelative:vehicleinventory.webapi\\controllers\\ns_vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -87,19 +91,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-02-17T23:51:58.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "NS_VehicleController.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.WebAPI\\Controllers\\NS_VehicleController.cs",
               "RelativeDocumentMoniker": "VehicleInventory.WebAPI\\Controllers\\NS_VehicleController.cs",
               "ToolTip": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.WebAPI\\Controllers\\NS_VehicleController.cs",
               "RelativeToolTip": "VehicleInventory.WebAPI\\Controllers\\NS_VehicleController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA3wBUAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBUAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T01:21:55.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "NS_VehicleInventory.WebAPI.csproj",
               "DocumentMoniker": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.WebAPI\\NS_VehicleInventory.WebAPI.csproj",
               "RelativeDocumentMoniker": "VehicleInventory.WebAPI\\NS_VehicleInventory.WebAPI.csproj",
@@ -111,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "VehicleInventory.WebAPI\\appsettings.json",
@@ -123,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "NS_InventoryDbContext.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\Persistence\\NS_InventoryDbContext.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Infrastructure\\Persistence\\NS_InventoryDbContext.cs",
@@ -135,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "NS_VehicleRepository.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\Repositories\\NS_VehicleRepository.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Infrastructure\\Repositories\\NS_VehicleRepository.cs",
@@ -147,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "NS_VehicleService.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\Services\\NS_VehicleService.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Application\\Services\\NS_VehicleService.cs",
@@ -159,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "NS_IVehicleRepo.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\Interfaces\\NS_IVehicleRepo.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Application\\Interfaces\\NS_IVehicleRepo.cs",
@@ -171,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "NS_UpdateStatusRequest.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\DTOs\\NS_UpdateStatusRequest.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Application\\DTOs\\NS_UpdateStatusRequest.cs",
@@ -183,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "NS_CreateVehicleRequest.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\DTOs\\NS_CreateVehicleRequest.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Application\\DTOs\\NS_CreateVehicleRequest.cs",
@@ -195,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "NS_VehicleDto.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\DTOs\\NS_VehicleDto.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Application\\DTOs\\NS_VehicleDto.cs",
@@ -207,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Vehicle.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\Entities\\Vehicle.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Domain\\Entities\\Vehicle.cs",
@@ -215,12 +232,11 @@
               "RelativeToolTip": "VehicleInventory.Domain\\Entities\\Vehicle.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAkwCEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T02:19:52.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T02:19:52.096Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DomainException.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\Exception\\DomainException.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Domain\\Exception\\DomainException.cs",
@@ -232,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "VehicleStatus.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\Enums\\VehicleStatus.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Domain\\Enums\\VehicleStatus.cs",
@@ -244,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "VehicleInventory.WebAPI\\Program.cs",
@@ -252,12 +268,11 @@
               "RelativeToolTip": "VehicleInventory.WebAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T01:54:52.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T01:54:52.199Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\Class1.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Infrastructure\\Class1.cs",
@@ -269,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\Class1.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Domain\\Class1.cs",
