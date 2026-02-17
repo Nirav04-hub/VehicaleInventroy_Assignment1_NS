@@ -7,7 +7,7 @@ namespace NS_VehicleInventory.WebAPI.Controllers
 {
 
     [ApiController]
-    [Route("Vehicle")]
+    //[Route("Vehicle")]
     public class NS_VehicleController : ControllerBase
     {
 
@@ -18,7 +18,7 @@ namespace NS_VehicleInventory.WebAPI.Controllers
             _vehicleService = vehicleService;
         }
 
-        [HttpGet("/getAll")]
+        [HttpGet("/api/vehicles")]
         public async Task<IActionResult> GetAll(CancellationToken ct)
         {
             var vehicles = await _vehicleService.GetAllVehiclesAsync(ct);
@@ -26,14 +26,14 @@ namespace NS_VehicleInventory.WebAPI.Controllers
         }
 
 
-        [HttpGet("/getById/{id}")]
+        [HttpGet("/api/vehicles/{id}")]
         public async Task<IActionResult> GetById(Guid id, CancellationToken ct)
         {
             var v = await _vehicleService.GetVehicleByIdAsync(id, ct);
             return Ok(v);
         }
 
-        [HttpPost("/add")]
+        [HttpPost(" /api/vehicles")]
         public async Task<IActionResult> Add(NS_CreateVehicleRequest request, CancellationToken ct)
         {
             var newVehicle = await _vehicleService.CreateVehicleAsync(request, ct);
@@ -41,14 +41,14 @@ namespace NS_VehicleInventory.WebAPI.Controllers
 
         }
 
-        [HttpPut("/updateStatus/{id}")]
+        [HttpPut("/api/vehicles/{id}/status")]
         public async Task<IActionResult> UpdateStatus(Guid id, NS_UpdateStatusRequest request, CancellationToken ct)
         {
             var result = await _vehicleService.UpdateVehicleStatusAsync(id, request.status, ct);
             return Ok(result);
         }
 
-        [HttpDelete("/delete/{id}")]
+        [HttpDelete("/api/vehicles/{id}")]
         public async Task<IActionResult> Delete(Guid id, CancellationToken ct)
         {
             var result = await _vehicleService.DeleteVehicleAsync(id, ct);

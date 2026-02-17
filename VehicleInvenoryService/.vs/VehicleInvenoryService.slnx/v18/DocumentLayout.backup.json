@@ -92,7 +92,7 @@
               "RelativeDocumentMoniker": "VehicleInventory.WebAPI\\Controllers\\NS_VehicleController.cs",
               "ToolTip": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.WebAPI\\Controllers\\NS_VehicleController.cs",
               "RelativeToolTip": "VehicleInventory.WebAPI\\Controllers\\NS_VehicleController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAowDYAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T01:21:55.147Z",
               "EditorCaption": ""
@@ -100,15 +100,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "NS_VehicleInventory.WebAPI",
+              "Title": "NS_VehicleInventory.WebAPI.csproj",
               "DocumentMoniker": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.WebAPI\\NS_VehicleInventory.WebAPI.csproj",
               "RelativeDocumentMoniker": "VehicleInventory.WebAPI\\NS_VehicleInventory.WebAPI.csproj",
-              "ToolTip": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.WebAPI\\NS_VehicleInventory.WebAPI.csproj*",
-              "RelativeToolTip": "VehicleInventory.WebAPI\\NS_VehicleInventory.WebAPI.csproj*",
+              "ToolTip": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.WebAPI\\NS_VehicleInventory.WebAPI.csproj",
+              "RelativeToolTip": "VehicleInventory.WebAPI\\NS_VehicleInventory.WebAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-17T00:57:54.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T00:57:54.632Z"
             },
             {
               "$type": "Document",
@@ -156,8 +155,7 @@
               "RelativeToolTip": "VehicleInventory.Application\\Services\\NS_VehicleService.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAADgvxYAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T23:22:46.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T23:22:46.216Z"
             },
             {
               "$type": "Document",
@@ -253,8 +251,7 @@
               "RelativeToolTip": "VehicleInventory.WebAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T01:54:52.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T01:54:52.199Z"
             },
             {
               "$type": "Document",
