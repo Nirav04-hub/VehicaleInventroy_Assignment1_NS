@@ -33,7 +33,7 @@ namespace NS_VehicleInventory.WebAPI.Controllers
             return Ok(v);
         }
 
-        [HttpPost(" /api/vehicles")]
+        [HttpPost("/api/vehicles")]
         public async Task<IActionResult> Add(NS_CreateVehicleRequest request, CancellationToken ct)
         {
             var newVehicle = await _vehicleService.CreateVehicleAsync(request, ct);

@@ -145,7 +145,6 @@ C:\Users\nirav\OneDrive\Desktop\VehicaleInventroy_Assignment1_NS\VehicleInvenory
 C:\Users\nirav\OneDrive\Desktop\VehicaleInventroy_Assignment1_NS\VehicleInvenoryService\VehicleInventory.WebAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\nirav\OneDrive\Desktop\VehicaleInventroy_Assignment1_NS\VehicleInvenoryService\VehicleInventory.WebAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\nirav\OneDrive\Desktop\VehicaleInventroy_Assignment1_NS\VehicleInvenoryService\VehicleInventory.WebAPI\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\nirav\OneDrive\Desktop\VehicaleInventroy_Assignment1_NS\VehicleInvenoryService\VehicleInventory.WebAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\nirav\OneDrive\Desktop\VehicaleInventroy_Assignment1_NS\VehicleInvenoryService\VehicleInventory.WebAPI\obj\Debug\net8.0\NS_Vehic.FB262D98.Up2Date
 C:\Users\nirav\OneDrive\Desktop\VehicaleInventroy_Assignment1_NS\VehicleInvenoryService\VehicleInventory.WebAPI\obj\Debug\net8.0\NS_VehicleInventory.WebAPI.dll
 C:\Users\nirav\OneDrive\Desktop\VehicaleInventroy_Assignment1_NS\VehicleInvenoryService\VehicleInventory.WebAPI\obj\Debug\net8.0\refint\NS_VehicleInventory.WebAPI.dll
