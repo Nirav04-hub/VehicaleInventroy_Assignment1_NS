@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/getAll": {
+    "/api/vehicles": {
       "get": {
         "tags": [
           "NS_Vehicle"
@@ -15,32 +15,7 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/getById/{id}": {
-      "get": {
-        "tags": [
-          "NS_Vehicle"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/add": {
+      },
       "post": {
         "tags": [
           "NS_Vehicle"
@@ -71,7 +46,51 @@
         }
       }
     },
-    "/updateStatus/{id}": {
+    "/api/vehicles/{id}": {
+      "get": {
+        "tags": [
+          "NS_Vehicle"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "NS_Vehicle"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/vehicles/{id}/status": {
       "put": {
         "tags": [
           "NS_Vehicle"
@@ -106,29 +125,6 @@
             }
           }
         },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/delete/{id}": {
-      "delete": {
-        "tags": [
-          "NS_Vehicle"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          }
-        ],
         "responses": {
           "200": {
             "description": "OK"

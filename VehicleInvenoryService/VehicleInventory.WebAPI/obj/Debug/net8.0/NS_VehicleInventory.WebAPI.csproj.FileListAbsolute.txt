@@ -151,3 +151,4 @@ C:\Users\nirav\OneDrive\Desktop\VehicaleInventroy_Assignment1_NS\VehicleInvenory
 C:\Users\nirav\OneDrive\Desktop\VehicaleInventroy_Assignment1_NS\VehicleInvenoryService\VehicleInventory.WebAPI\obj\Debug\net8.0\NS_VehicleInventory.WebAPI.pdb
 C:\Users\nirav\OneDrive\Desktop\VehicaleInventroy_Assignment1_NS\VehicleInvenoryService\VehicleInventory.WebAPI\obj\Debug\net8.0\NS_VehicleInventory.WebAPI.genruntimeconfig.cache
 C:\Users\nirav\OneDrive\Desktop\VehicaleInventroy_Assignment1_NS\VehicleInvenoryService\VehicleInventory.WebAPI\obj\Debug\net8.0\ref\NS_VehicleInventory.WebAPI.dll
+C:\Users\nirav\OneDrive\Desktop\VehicaleInventroy_Assignment1_NS\VehicleInvenoryService\VehicleInventory.WebAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -54,6 +54,8 @@ namespace NS_VehicleInventory.WebAPI.Controllers
             var result = await _vehicleService.DeleteVehicleAsync(id, ct);
             return Ok(result);
         }
+
+        
     }
 }
 
