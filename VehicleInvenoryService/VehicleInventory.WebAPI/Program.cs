@@ -15,6 +15,11 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<NS_InventoryDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("InventoryDb")));
 
+builder.Services.AddControllers()
+    .AddJsonOptions(o =>
+        o.JsonSerializerOptions.Converters.Add(
+            new System.Text.Json.Serialization.JsonStringEnumConverter()));
+
 builder.Services.AddScoped<NS_IVehicleRepo , NS_VehicleRepository>();
 builder.Services.AddScoped<NS_VehicleService>();
 

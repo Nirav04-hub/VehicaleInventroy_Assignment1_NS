@@ -23,10 +23,10 @@ namespace VehicleInventory.InfrastructureNS.Persistence
             modelBuilder.Entity<Vehicle>(entity =>
             {
                 entity.HasKey(v => v.Id);
-                entity.Property(v => v.VehicleCode).IsRequired().HasMaxLength(100);
-                entity.Property(v => v.VehicleType).IsRequired().HasMaxLength(100);
+                entity.Property(v => v.VehicleCode).IsRequired().HasMaxLength(50);
+                entity.Property(v => v.VehicleType).IsRequired().HasMaxLength(50);
                 entity.Property(v => v.LocationId).IsRequired();
-                entity.Property(v => v.Status).IsRequired().HasColumnType("decimal(18,2)");
+                entity.Property(v => v.Status).IsRequired();
             });
 
             base.OnModelCreating(modelBuilder);

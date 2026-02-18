@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using VehicleInventory.Application.DTOs;
 using VehicleInventory.Application.Services;
+using VehicleInventory.Domain.Exception;
 
 namespace NS_VehicleInventory.WebAPI.Controllers
 {
@@ -30,22 +31,29 @@ namespace NS_VehicleInventory.WebAPI.Controllers
         public async Task<IActionResult> GetById(Guid id, CancellationToken ct)
         {
             var v = await _vehicleService.GetVehicleByIdAsync(id, ct);
-            return Ok(v);
+            return v == null ? NotFound() : Ok(v);
         }
 
         [HttpPost("/api/vehicles")]
         public async Task<IActionResult> Add(NS_CreateVehicleRequest request, CancellationToken ct)
         {
             var newVehicle = await _vehicleService.CreateVehicleAsync(request, ct);
-            return Ok(newVehicle);
+            return CreatedAtAction(nameof(GetById), new { id = newVehicle.Id }, newVehicle);
 
         }
 
         [HttpPut("/api/vehicles/{id}/status")]
         public async Task<IActionResult> UpdateStatus(Guid id, NS_UpdateStatusRequest request, CancellationToken ct)
         {
-            var result = await _vehicleService.UpdateVehicleStatusAsync(id, request.status, ct);
-            return Ok(result);
+            try
+            {
+                var result = await _vehicleService.UpdateVehicleStatusAsync(id, request.status, ct);
+                return Ok(result);
+            }
+            catch (DomainException ex)
+            {
+                return BadRequest(new { error = ex.Message });
+            }
         }
 
         [HttpDelete("/api/vehicles/{id}")]

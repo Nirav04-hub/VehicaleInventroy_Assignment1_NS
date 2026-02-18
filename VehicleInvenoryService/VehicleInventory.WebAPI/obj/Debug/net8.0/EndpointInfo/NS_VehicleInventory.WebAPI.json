@@ -174,13 +174,12 @@
       },
       "VehicleStatus": {
         "enum": [
-          0,
-          1,
-          2,
-          3
+          "Available",
+          "Reserved",
+          "Rented",
+          "Serviced"
         ],
-        "type": "integer",
-        "format": "int32"
+        "type": "string"
       }
     }
   }

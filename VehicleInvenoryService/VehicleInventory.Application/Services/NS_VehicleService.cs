@@ -30,7 +30,7 @@ namespace VehicleInventory.Application.Services
         public async Task<NS_VehicleDto?> GetVehicleByIdAsync(Guid id, CancellationToken ct = default)
         {
             var v = await _vehicleRepo.GetByIdAsync(id, ct);
-            return  ToDto(v);
+            return v == null ? null : ToDto(v);
         }
 
         public async Task<List<NS_VehicleDto>> GetAllVehiclesAsync(CancellationToken ct = default)
@@ -42,6 +42,7 @@ namespace VehicleInventory.Application.Services
         public async Task<bool> UpdateVehicleStatusAsync(Guid id, VehicleStatus status, CancellationToken ct = default)
         {
             var v = await _vehicleRepo.GetByIdAsync(id, ct);
+            if (v == null) throw new DomainException("Vehicle not found.");
 
             switch (status)
             {
@@ -64,6 +65,7 @@ namespace VehicleInventory.Application.Services
         {
             var v = await _vehicleRepo.GetByIdAsync(id, ct);
             await _vehicleRepo.DeleteAsync(v, ct);
+            if (v == null) throw new DomainException("Vehicle not found.");
             return true;
         }
         private static NS_VehicleDto ToDto(Vehicle v)
