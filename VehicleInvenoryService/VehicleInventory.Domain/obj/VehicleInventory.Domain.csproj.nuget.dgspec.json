@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\VehicleInventory.Domain.csproj": {}
+    "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\VehicleInventory.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\VehicleInventory.Domain.csproj": {
+    "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\VehicleInventory.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\VehicleInventory.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\VehicleInventory.Domain.csproj",
         "projectName": "VehicleInventory.Domain",
-        "projectPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\VehicleInventory.Domain.csproj",
+        "projectPath": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\VehicleInventory.Domain.csproj",
         "packagesPath": "C:\\Users\\nirav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\obj\\",
+        "outputPath": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

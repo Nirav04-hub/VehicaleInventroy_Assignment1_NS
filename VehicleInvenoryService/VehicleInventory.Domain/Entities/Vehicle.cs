@@ -5,17 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using VehicleInventory.Domain.Enums;
 using VehicleInventory.Domain.Exception;
+using VehicleInventory.Domain.Valueobject;
 
 namespace VehicleInventory.Domain.Entities
 {
     public class Vehicle
     {
         public Guid Id { get; private set; }
-        public string VehicleCode { get; private set; }
+        public VehicleCode VehicleCode { get; private set; }
         public Guid LocationId { get; private set; }
-        public string VehicleType { get; private set; }
+        public VehicleType VehicleType { get; private set; }
 
         public VehicleStatus Status { get; private set; }
+        public VehicleLocation Location { get; private set; }
 
         private Vehicle() { }
 
@@ -43,9 +45,9 @@ namespace VehicleInventory.Domain.Entities
 
 
             Id = id;
-            VehicleCode = vehicleCode.Trim();
+            VehicleCode = VehicleCode.Create(vehicleCode);
             LocationId = locationId;
-            VehicleType = vehicleType.Trim();
+            VehicleType = VehicleType.Create(vehicleType);
             Status = VehicleStatus.Available;
         }
 
