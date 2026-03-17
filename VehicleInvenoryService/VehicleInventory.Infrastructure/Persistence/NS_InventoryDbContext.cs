@@ -15,21 +15,42 @@ namespace VehicleInventory.InfrastructureNS.Persistence
         }
 
         public DbSet<Vehicle> Vehicles { get; set; }
+        public DbSet<VehicleLocation> VehicleLocations { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
-
+            
             modelBuilder.Entity<Vehicle>(entity =>
             {
                 entity.HasKey(v => v.Id);
-                entity.Property(v => v.VehicleCode).IsRequired().HasMaxLength(50);
-                entity.Property(v => v.VehicleType).IsRequired().HasMaxLength(50);
                 entity.Property(v => v.LocationId).IsRequired();
                 entity.Property(v => v.Status).IsRequired();
-            });
+                
+                entity.OwnsOne(v => v.VehicleCode, code =>
+                {
+                    code.Property(c => c.Value)
+                        .HasColumnName("VehicleCode")
+                        .IsRequired()
+                        .HasMaxLength(50);
+                });
 
-            base.OnModelCreating(modelBuilder);
+                entity.OwnsOne(v => v.VehicleType, type =>
+                {
+                    type.Property(t => t.Value)
+                        .HasColumnName("VehicleType")
+                        .IsRequired()
+                        .HasMaxLength(50);
+                });
+
+            });
+     
+            modelBuilder.Entity<VehicleLocation>(entity =>
+            {
+                entity.HasKey(l => l.Id);
+                entity.Property(l => l.Name).IsRequired().HasMaxLength(100);
+                entity.Property(l => l.City).IsRequired().HasMaxLength(100);
+                entity.Property(l => l.Country).IsRequired().HasMaxLength(100);
+            });
         }
 
     }

@@ -48,5 +48,13 @@ namespace VehicleInventory.InfrastructureNS.Repositories
             _Dbcontext.Vehicles.Update(vehicle);
             await _Dbcontext.SaveChangesAsync(ct);
         }
+
+        public async Task AddLocationAsync(
+    VehicleInventory.Domain.Entities.VehicleLocation location,
+    CancellationToken ct)
+        {
+            await   _Dbcontext.VehicleLocations.AddAsync(location, ct);
+            await _Dbcontext.SaveChangesAsync(ct);
+        }
     }
 }

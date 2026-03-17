@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using VehicleInventory.InfrastructureNS.Persistence;
 
@@ -11,9 +12,11 @@ using VehicleInventory.InfrastructureNS.Persistence;
 namespace NS_VehicleInventory.Infrastructure.Migrations
 {
     [DbContext(typeof(NS_InventoryDbContext))]
-    partial class NS_InventoryDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260317230947_InitalCreate")]
+    partial class InitalCreate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

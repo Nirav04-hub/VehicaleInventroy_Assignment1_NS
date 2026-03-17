@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YWmeCLw+1zU=",
+  "dgSpecHash": "bbxAOBt7cF4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nirav\\OneDrive\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.WebAPI\\NS_VehicleInventory.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.WebAPI\\NS_VehicleInventory.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nirav\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\nirav\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

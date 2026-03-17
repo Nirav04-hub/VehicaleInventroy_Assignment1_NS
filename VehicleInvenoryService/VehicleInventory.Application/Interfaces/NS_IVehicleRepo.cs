@@ -14,5 +14,6 @@ namespace VehicleInventory.Application.Interfaces
         public Task AddAsync(Vehicle vehicle, CancellationToken ct = default);
         public Task UpdateAsync(Vehicle vehicle, CancellationToken ct = default);
         public Task DeleteAsync(Vehicle vehicle, CancellationToken ct = default);
+        Task AddLocationAsync(VehicleInventory.Domain.Entities.VehicleLocation location, CancellationToken ct);
     }
 }

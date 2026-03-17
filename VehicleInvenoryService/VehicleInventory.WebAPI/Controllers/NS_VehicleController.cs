@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using NS_VehicleInventory.Application.DTOs;
 using VehicleInventory.Application.DTOs;
 using VehicleInventory.Application.Services;
 using VehicleInventory.Domain.Exception;
@@ -63,7 +64,19 @@ namespace NS_VehicleInventory.WebAPI.Controllers
             return Ok(result);
         }
 
-        
+        [HttpPost("/api/locations")]
+        public async Task<IActionResult> AddLocation(
+    [FromBody] NS_CreateLocationRequest request,
+    CancellationToken ct)
+        {
+            var location = VehicleInventory.Domain.Entities.VehicleLocation.Create(
+                request.Name, request.City, request.Country);
+            await _vehicleService.AddLocationAsync(location, ct);
+            return CreatedAtAction(nameof(AddLocation), new { id = location.Id },
+                new { location.Id, location.Name, location.City, location.Country });
+        }
+
+
     }
 }
 

@@ -68,7 +68,13 @@ namespace VehicleInventory.Application.Services
             if (v == null) throw new DomainException("Vehicle not found.");
             return true;
         }
+        public async Task AddLocationAsync(
+    VehicleInventory.Domain.Entities.VehicleLocation location,
+    CancellationToken ct = default)
+        {
+            await _vehicleRepo.AddLocationAsync(location, ct);
+        }
         private static NS_VehicleDto ToDto(Vehicle v)
-            => new(v.Id, v.VehicleCode, v.LocationId, v.VehicleType, v.Status);
+            => new(v.Id, v.VehicleCode.Value, v.LocationId, v.VehicleType.Value, v.Status);
     }
 }

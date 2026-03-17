@@ -17,7 +17,7 @@ namespace VehicleInventory.Domain.Entities
         public VehicleType VehicleType { get; private set; }
 
         public VehicleStatus Status { get; private set; }
-        public VehicleLocation Location { get; private set; }
+        
 
         private Vehicle() { }
 

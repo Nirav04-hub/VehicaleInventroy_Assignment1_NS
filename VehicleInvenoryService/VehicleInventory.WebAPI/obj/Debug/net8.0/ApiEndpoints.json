@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "NS_VehicleInventory.WebAPI.Controllers.NS_VehicleController",
+    "Method": "AddLocation",
+    "RelativePath": "api/locations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "NS_VehicleInventory.Application.DTOs.NS_CreateLocationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NS_VehicleInventory.WebAPI.Controllers.NS_VehicleController",
     "Method": "GetAll",
     "RelativePath": "api/vehicles",
     "HttpMethod": "GET",

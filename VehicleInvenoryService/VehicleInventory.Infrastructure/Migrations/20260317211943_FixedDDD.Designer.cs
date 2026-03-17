@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using VehicleInventory.InfrastructureNS.Persistence;
 
@@ -11,9 +12,11 @@ using VehicleInventory.InfrastructureNS.Persistence;
 namespace NS_VehicleInventory.Infrastructure.Migrations
 {
     [DbContext(typeof(NS_InventoryDbContext))]
-    partial class NS_InventoryDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260317211943_FixedDDD")]
+    partial class FixedDDD
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -35,6 +38,8 @@ namespace NS_VehicleInventory.Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("LocationId");
 
                     b.ToTable("Vehicles");
                 });
@@ -67,6 +72,12 @@ namespace NS_VehicleInventory.Infrastructure.Migrations
 
             modelBuilder.Entity("VehicleInventory.Domain.Entities.Vehicle", b =>
                 {
+                    b.HasOne("VehicleInventory.Domain.Entities.VehicleLocation", "Location")
+                        .WithMany()
+                        .HasForeignKey("LocationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.OwnsOne("VehicleInventory.Domain.Valueobject.VehicleCode", "VehicleCode", b1 =>
                         {
                             b1.Property<Guid>("VehicleId")
@@ -104,6 +115,8 @@ namespace NS_VehicleInventory.Infrastructure.Migrations
                             b1.WithOwner()
                                 .HasForeignKey("VehicleId");
                         });
+
+                    b.Navigation("Location");
 
                     b.Navigation("VehicleCode")
                         .IsRequired();
