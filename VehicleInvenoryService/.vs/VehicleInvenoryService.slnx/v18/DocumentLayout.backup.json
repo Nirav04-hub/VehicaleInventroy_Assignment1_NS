@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{259EF956-7AFA-C60B-F753-C2D881D0B3C6}|VehicleInventory.Domain\\VehicleInventory.Domain.csproj|c:\\users\\nirav\\desktop\\vehicaleinventroy_assignment1_ns\\vehicleinvenoryservice\\vehicleinventory.domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{259EF956-7AFA-C60B-F753-C2D881D0B3C6}|VehicleInventory.Domain\\VehicleInventory.Domain.csproj|solutionrelative:vehicleinventory.domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{62EA3ADD-D5FD-7D26-1F6A-A003A92EB7A1}|VehicleInventory.Infrastructure\\NS_VehicleInventory.Infrastructure.csproj|c:\\users\\nirav\\desktop\\vehicaleinventroy_assignment1_ns\\vehicleinvenoryservice\\vehicleinventory.infrastructure\\persistence\\ns_inventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62EA3ADD-D5FD-7D26-1F6A-A003A92EB7A1}|VehicleInventory.Infrastructure\\NS_VehicleInventory.Infrastructure.csproj|solutionrelative:vehicleinventory.infrastructure\\persistence\\ns_inventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{259EF956-7AFA-C60B-F753-C2D881D0B3C6}|VehicleInventory.Domain\\VehicleInventory.Domain.csproj|c:\\users\\nirav\\desktop\\vehicaleinventroy_assignment1_ns\\vehicleinvenoryservice\\vehicleinventory.domain\\valueobject\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{259EF956-7AFA-C60B-F753-C2D881D0B3C6}|VehicleInventory.Domain\\VehicleInventory.Domain.csproj|solutionrelative:vehicleinventory.domain\\valueobject\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{259EF956-7AFA-C60B-F753-C2D881D0B3C6}|VehicleInventory.Domain\\VehicleInventory.Domain.csproj|c:\\users\\nirav\\desktop\\vehicaleinventroy_assignment1_ns\\vehicleinvenoryservice\\vehicleinventory.domain\\valueobject\\vehiclecode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{259EF956-7AFA-C60B-F753-C2D881D0B3C6}|VehicleInventory.Domain\\VehicleInventory.Domain.csproj|solutionrelative:vehicleinventory.domain\\valueobject\\vehiclecode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{259EF956-7AFA-C60B-F753-C2D881D0B3C6}|VehicleInventory.Domain\\VehicleInventory.Domain.csproj|c:\\users\\nirav\\desktop\\vehicaleinventroy_assignment1_ns\\vehicleinvenoryservice\\vehicleinventory.domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{259EF956-7AFA-C60B-F753-C2D881D0B3C6}|VehicleInventory.Domain\\VehicleInventory.Domain.csproj|solutionrelative:vehicleinventory.domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62EA3ADD-D5FD-7D26-1F6A-A003A92EB7A1}|VehicleInventory.Infrastructure\\NS_VehicleInventory.Infrastructure.csproj|c:\\users\\nirav\\desktop\\vehicaleinventroy_assignment1_ns\\vehicleinvenoryservice\\vehicleinventory.infrastructure\\migrations\\20260317211943_fixedddd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -44,14 +52,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{62EA3ADD-D5FD-7D26-1F6A-A003A92EB7A1}|VehicleInventory.Infrastructure\\NS_VehicleInventory.Infrastructure.csproj|c:\\users\\nirav\\desktop\\vehicaleinventroy_assignment1_ns\\vehicleinvenoryservice\\vehicleinventory.infrastructure\\migrations\\20260218015035_fixstatuscolumntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62EA3ADD-D5FD-7D26-1F6A-A003A92EB7A1}|VehicleInventory.Infrastructure\\NS_VehicleInventory.Infrastructure.csproj|solutionrelative:vehicleinventory.infrastructure\\migrations\\20260218015035_fixstatuscolumntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{259EF956-7AFA-C60B-F753-C2D881D0B3C6}|VehicleInventory.Domain\\VehicleInventory.Domain.csproj|c:\\users\\nirav\\desktop\\vehicaleinventroy_assignment1_ns\\vehicleinvenoryservice\\vehicleinventory.domain\\valueobject\\vehiclecode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{259EF956-7AFA-C60B-F753-C2D881D0B3C6}|VehicleInventory.Domain\\VehicleInventory.Domain.csproj|solutionrelative:vehicleinventory.domain\\valueobject\\vehiclecode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{259EF956-7AFA-C60B-F753-C2D881D0B3C6}|VehicleInventory.Domain\\VehicleInventory.Domain.csproj|c:\\users\\nirav\\desktop\\vehicaleinventroy_assignment1_ns\\vehicleinvenoryservice\\vehicleinventory.domain\\valueobject\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{259EF956-7AFA-C60B-F753-C2D881D0B3C6}|VehicleInventory.Domain\\VehicleInventory.Domain.csproj|solutionrelative:vehicleinventory.domain\\valueobject\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95AB1412-44D6-9B59-D320-86D412AECCE7}|VehicleInventory.Application\\NS_VehicleInventory.Application.csproj|c:\\users\\nirav\\desktop\\vehicaleinventroy_assignment1_ns\\vehicleinvenoryservice\\vehicleinventory.application\\dtos\\ns_vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -97,7 +97,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -109,17 +109,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbo.VehicleLocations [Data]",
+              "DocumentIndex": 5,
+              "Title": "dbo.VehicleLocations.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NS_VehicleInventoryDb/True/SqlTable/dbo.VehicleLocations.sql",
-              "ToolTip": "dbo.VehicleLocations [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NS_VehicleInventoryDb/True/SqlTable/dbo.VehicleLocations.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-03-17T22:54:21.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T22:54:21.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "NS_CreateLocationRequest.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\DTOs\\NS_CreateLocationRequest.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Application\\DTOs\\NS_CreateLocationRequest.cs",
@@ -127,12 +126,11 @@
               "RelativeToolTip": "VehicleInventory.Application\\DTOs\\NS_CreateLocationRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T22:49:36.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T22:49:36.704Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "NS_VehicleController.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.WebAPI\\Controllers\\NS_VehicleController.cs",
               "RelativeDocumentMoniker": "VehicleInventory.WebAPI\\Controllers\\NS_VehicleController.cs",
@@ -140,49 +138,50 @@
               "RelativeToolTip": "VehicleInventory.WebAPI\\Controllers\\NS_VehicleController.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAASwEUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T21:32:12.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T21:32:12.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "VehicleType.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\Valueobject\\VehicleType.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Domain\\Valueobject\\VehicleType.cs",
               "ToolTip": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\Valueobject\\VehicleType.cs",
               "RelativeToolTip": "VehicleInventory.Domain\\Valueobject\\VehicleType.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAwwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T20:37:15.007Z"
+              "WhenOpened": "2026-03-17T20:37:15.007Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "VehicleCode.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\Valueobject\\VehicleCode.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Domain\\Valueobject\\VehicleCode.cs",
               "ToolTip": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\Valueobject\\VehicleCode.cs",
               "RelativeToolTip": "VehicleInventory.Domain\\Valueobject\\VehicleCode.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBwAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T20:35:33.466Z"
+              "WhenOpened": "2026-03-17T20:35:33.466Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "NS_InventoryDbContext.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\Persistence\\NS_InventoryDbContext.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Infrastructure\\Persistence\\NS_InventoryDbContext.cs",
               "ToolTip": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\Persistence\\NS_InventoryDbContext.cs",
               "RelativeToolTip": "VehicleInventory.Infrastructure\\Persistence\\NS_InventoryDbContext.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T00:09:56.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "20260317211943_FixedDDD.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\Migrations\\20260317211943_FixedDDD.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Infrastructure\\Migrations\\20260317211943_FixedDDD.cs",
@@ -190,25 +189,24 @@
               "RelativeToolTip": "VehicleInventory.Infrastructure\\Migrations\\20260317211943_FixedDDD.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T21:24:39.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T21:24:39.576Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Vehicle.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\Entities\\Vehicle.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Domain\\Entities\\Vehicle.cs",
               "ToolTip": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\Entities\\Vehicle.cs",
               "RelativeToolTip": "VehicleInventory.Domain\\Entities\\Vehicle.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAuwEsAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wBkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-12T02:19:52.096Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "VehicleLocation.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Domain\\Entities\\VehicleLocation.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Domain\\Entities\\VehicleLocation.cs",
@@ -220,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "20260218015035_FixStatusColumnType.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\Migrations\\20260218015035_FixStatusColumnType.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Infrastructure\\Migrations\\20260218015035_FixStatusColumnType.cs",
@@ -232,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "NS_VehicleService.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\Services\\NS_VehicleService.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Application\\Services\\NS_VehicleService.cs",
@@ -240,12 +238,11 @@
               "RelativeToolTip": "VehicleInventory.Application\\Services\\NS_VehicleService.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAIwA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T23:22:46.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T23:22:46.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "NS_IVehicleRepo.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Application\\Interfaces\\NS_IVehicleRepo.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Application\\Interfaces\\NS_IVehicleRepo.cs",
@@ -253,12 +250,11 @@
               "RelativeToolTip": "VehicleInventory.Application\\Interfaces\\NS_IVehicleRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T21:48:39.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T21:48:39.826Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "NS_VehicleRepository.cs",
               "DocumentMoniker": "C:\\Users\\nirav\\Desktop\\VehicaleInventroy_Assignment1_NS\\VehicleInvenoryService\\VehicleInventory.Infrastructure\\Repositories\\NS_VehicleRepository.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Infrastructure\\Repositories\\NS_VehicleRepository.cs",
@@ -266,8 +262,7 @@
               "RelativeToolTip": "VehicleInventory.Infrastructure\\Repositories\\NS_VehicleRepository.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAIwDUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T22:17:33.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T22:17:33.458Z"
             },
             {
               "$type": "Document",
